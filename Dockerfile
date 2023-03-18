@@ -2,7 +2,7 @@ FROM ubuntu:22.10
 
 WORKDIR /root
 
-RUN git clone https://github.com/Akash7180/Food-recipe-website-with-api-calls
+RUN git clone https://github.com/Akash7180/Food-recipe-website-with-api-call
 
 WORKDIR /root/Food-recipe-website-with-api-calls
 
