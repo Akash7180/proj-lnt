@@ -15,4 +15,5 @@ COPY * /var/www/html/
 
 RUN systemctl enable nginx
 
+EXPOSE 80
 CMD ['nginx','-g','daemon off;']
